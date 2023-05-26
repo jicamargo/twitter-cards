@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.appTwitterUsers {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border: rgb(98, 98, 98) 1px solid;
+  border-radius: 6px;
+}
